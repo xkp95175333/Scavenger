@@ -1,0 +1,18 @@
+// UserDefinedStruct ST_GameModeTeams_ScoringData.ST_GameModeTeams_ScoringData
+// Size: 0xe8 (Inherited: 0x00)
+struct FST_GameModeTeams_ScoringData {
+	struct FText TitleTextCharacterXP_134_5A3C4CAF4969DAE6FA08DAAA3A5B94AE; // 0x00(0x18)
+	struct FText TitleTextCurrency_135_1BCB801446988F48288EDAA3F87514EE; // 0x18(0x18)
+	struct FText TextSurvivalTime_119_1480AECC4AA864A320FA098936E561D1; // 0x30(0x18)
+	struct FText TextVictoryBonus_120_9A47F9FD44E7DBBBC7C170BE8F14E5CD; // 0x48(0x18)
+	struct FText TextExplorersExtracted_121_83F167B949DFBC4D85036BB71BBF363D; // 0x60(0x18)
+	struct FText TextShardsHarvested_124_6F18081A40742F8EFE7B138779424040; // 0x78(0x18)
+	struct FText TextShardsExtracted_126_60875A194F1F613A29BFB7A1EA0AE5A4; // 0x90(0x18)
+	struct FText TextScrapBonus_128_A8C76AD949004062215DABACCD510656; // 0xa8(0x18)
+	struct FText TextDamageBonus_130_986CD918422542A4A8FC4DBA111FBFE9; // 0xc0(0x18)
+	float XPtoCurrencyConversionRate_138_135F64E64A3A5AAD1AB79B8A7127BE52; // 0xd8(0x04)
+	float TeamrankEvacValue_140_4CECEAFA4846BCE80444588B46147153; // 0xdc(0x04)
+	float TeamrankHarvestValue_142_FCBF1F344294A58860CEE4AF48F99F50; // 0xe0(0x04)
+	float TeamrankExtracValue_144_0069F49F4C4823CFE3EE42B519D38F91; // 0xe4(0x04)
+};
+

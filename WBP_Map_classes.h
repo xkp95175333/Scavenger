@@ -1,0 +1,45 @@
+// WidgetBlueprintGeneratedClass WBP_Map.WBP_Map_C
+// Size: 0x5d8 (Inherited: 0x4b8)
+struct UWBP_Map_C : US_WidgetMinimal {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x4b8(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Ammo; // 0x4c0(0x08)
+	struct UWBP_LegendItem_NoDescr_C* BossTarget; // 0x4c8(0x08)
+	struct UCanvasPanel* CanvasROOT; // 0x4d0(0x08)
+	struct UWBP_ControlsIcon_C* Center; // 0x4d8(0x08)
+	struct UWBP_ControlsIcon_C* CenterGamepad; // 0x4e0(0x08)
+	struct UWBP_LegendItem_NoDescr_C* DataUplink; // 0x4e8(0x08)
+	struct UWBP_ControlsIcon_C* DropPin; // 0x4f0(0x08)
+	struct UWBP_ControlsIcon_C* DropPinGamepad; // 0x4f8(0x08)
+	struct UWBP_LegendItem_NoDescr_C* EnemyLeader; // 0x500(0x08)
+	struct UWBP_LegendItem_NoDescr_C* food; // 0x508(0x08)
+	struct UWBP_LegendItem_NoDescr_C* GrowthCluster; // 0x510(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Health; // 0x518(0x08)
+	struct UCanvasPanel* MapCanvas; // 0x520(0x08)
+	struct UWBP_ControlsIcon_C* Pan; // 0x528(0x08)
+	struct UWBP_ControlsIcon_C* PanGamepad; // 0x530(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Scrap; // 0x538(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Shard; // 0x540(0x08)
+	struct UWBP_LegendItem_NoDescr_C* ShardAltar; // 0x548(0x08)
+	struct UWBP_LegendItem_NoDescr_C* ShardGrowth; // 0x550(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Shuttle; // 0x558(0x08)
+	struct UWBP_LegendItem_NoDescr_C* SpaceDebris; // 0x560(0x08)
+	struct UWBP_LegendItem_NoDescr_C* StormCollapsing; // 0x568(0x08)
+	struct UWBP_LegendItem_NoDescr_C* StormRoaming; // 0x570(0x08)
+	struct UWBP_LegendItem_NoDescr_C* SupplyDrop; // 0x578(0x08)
+	struct UWBP_LegendItem_NoDescr_C* Vehicle; // 0x580(0x08)
+	struct UWBP_LegendItem_NoDescr_C* VehicleRepair; // 0x588(0x08)
+	struct UWBP_LegendItem_NoDescr_C* WBP_LegendItem_C_3; // 0x590(0x08)
+	struct UWBP_MapLegendPanelHeader_C* WBP_MapLegendCategoryHeader1; // 0x598(0x08)
+	struct UWBP_MapLegendPanelHeader_C* WBP_MapLegendCategoryHeader2; // 0x5a0(0x08)
+	struct UWBP_MapLegendPanelHeader_C* WBP_MapLegendCategoryHeader3; // 0x5a8(0x08)
+	struct UWBP_MapLegendPanelHeader_NoLine_C* WBP_MapLegendPanelHeader_NoLine_C_2; // 0x5b0(0x08)
+	struct UWBP_MapWidget_C* WBP_MapWidget; // 0x5b8(0x08)
+	struct UWBP_ControlsIcon_C* Zoom; // 0x5c0(0x08)
+	struct UWBP_ControlsIcon_C* ZoomInGamepadL; // 0x5c8(0x08)
+	struct UWBP_ControlsIcon_C* ZoomInGamepadR; // 0x5d0(0x08)
+
+	void NotifyWidgetAddedToNavStack_BP(); // Function WBP_Map.WBP_Map_C.NotifyWidgetAddedToNavStack_BP // (Event|Public|BlueprintEvent) // @ game+0xffff8008e4a10000
+	void NotifyWidgetRemovedFromNavStack_BP(); // Function WBP_Map.WBP_Map_C.NotifyWidgetRemovedFromNavStack_BP // (Event|Public|BlueprintEvent) // @ game+0xffff8008e4a10000
+	void ExecuteUbergraph_WBP_Map(int32_t EntryPoint); // Function WBP_Map.WBP_Map_C.ExecuteUbergraph_WBP_Map // (Final|UbergraphFunction) // @ game+0xffff8008e4a10000
+};
+
